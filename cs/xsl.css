@@ -1,0 +1,31 @@
+body{
+	           
+	background-image: url("../multimedia/Plantilla.png");          
+	}
+table{
+   background-color: white;
+   border-left: 10px solid red;
+   border-right: 10px dashed blue;
+   border-top: 10px solid yellow;
+}
+th{
+	background-color: #b2ded1;
+	font-size: 30px;	
+	color: black;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+td {
+	background-color: #59d286;
+	font-size: 16px;	
+	color: white;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#center {
+	margin-left:auto; 
+    margin-right:auto;
+}
+#titulo {
+		margin-right: 35%;
+		margin-left: 25%;
+}
