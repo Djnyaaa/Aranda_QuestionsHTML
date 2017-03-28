@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?> 
-<questions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="questions.xsd">
 
-	
+<?xml-stylesheet type="text/xsl" href="otra.xsl"?>
+
+<questions>	
 <question id='bodatoda001'>
 <type>text</type>
 		<title>¿Cómo se escribe 99 en chino?</title>
@@ -37,7 +38,7 @@
 			<option>Dos por especie.</option>
 			<option>Tres por especie</option>
 			<option>Ninguno</option>
-				<answer>3 </answer><!--Ninguno, fue noé-->
+				<answer>3</answer><!--Ninguno, fue noé-->
 </question>
 	
 
