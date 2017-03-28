@@ -5,20 +5,14 @@
 <xsl:template match="/">
 <html>
 <head>
-<style rel="stylesheet" type="text/css">
-table{width:100%;border:1px solid}
-th{background-color:#cdd8f6}
-td,tr,th{border:1px solid;padding:2px;vertical-align:top}
-span{color:green;padding-left:5px}
-#x{color:red}
-</style>
+<link rel="stylesheet" type="text/css" href="../cs/xsl.css" />
 </head>
 <body>
-  <h2>Corrección</h2>
+	<div id="titulo"><img src="../multimedia/soluciones.png" alt="Preguntas absurdas" id="titulo"></img></div>
   <table>
     <tr>
       <th>Pregunta</th>
-      <th>Opción</th>
+      <th>Solución</th>
      
     </tr>
     <xsl:for-each select="questions/question">      
